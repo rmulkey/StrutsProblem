@@ -6,80 +6,277 @@ provides-nominal:
 provides-member:
 - ["C13StrutsProblem14ViewController", ""]
 provides-dynamic-lookup:
-- "viewDidLoad"
+- "topLeftView"
+- "bottomView"
 - "didReceiveMemoryWarning"
+- "viewDidLoad"
+- "topRightView"
+- "viewDidLayoutSubviews"
 depends-top-level:
+- !private "=="
+- !private "UIDevice"
 - "UIViewController"
 - "ViewController"
+- !private "||"
+- "UIView"
+- !private "UIDeviceOrientation"
 depends-member:
+- !private ["PSs9AnyObject", "UIDevice"]
+- !private ["PSs9AnyObject", "UIDeviceOrientation"]
+- ["PSs9AnyObject", "bottomView"]
+- !private ["PSs9AnyObject", "currentDevice"]
 - ["PSs9AnyObject", "didReceiveMemoryWarning"]
+- !private ["PSs9AnyObject", "frame"]
 - ["PSs9AnyObject", "init"]
+- !private ["PSs9AnyObject", "orientation"]
+- ["PSs9AnyObject", "topLeftView"]
+- ["PSs9AnyObject", "topRightView"]
+- ["PSs9AnyObject", "viewDidLayoutSubviews"]
 - ["PSs9AnyObject", "viewDidLoad"]
 - ["PSs9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
+- !private ["V12CoreGraphics7CGFloat", "deinit"]
+- !private ["VSC7CGPoint", "x"]
+- !private ["VSC7CGPoint", "y"]
+- !private ["VSC6CGRect", "origin"]
+- !private ["VSC6CGRect", "size"]
+- !private ["VSC6CGSize", "height"]
+- !private ["VSC6CGSize", "width"]
+- !private ["PSs11CVarArgType", "UIDevice"]
+- !private ["PSs11CVarArgType", "UIDeviceOrientation"]
+- ["PSs11CVarArgType", "bottomView"]
+- !private ["PSs11CVarArgType", "currentDevice"]
 - ["PSs11CVarArgType", "didReceiveMemoryWarning"]
+- !private ["PSs11CVarArgType", "frame"]
 - ["PSs11CVarArgType", "init"]
+- !private ["PSs11CVarArgType", "orientation"]
+- ["PSs11CVarArgType", "topLeftView"]
+- ["PSs11CVarArgType", "topRightView"]
+- ["PSs11CVarArgType", "viewDidLayoutSubviews"]
 - ["PSs11CVarArgType", "viewDidLoad"]
 - ["PSs11CVarArgType", ""]
+- !private ["PSs23CustomStringConvertible", "UIDevice"]
+- !private ["PSs23CustomStringConvertible", "UIDeviceOrientation"]
+- !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["PSs23CustomStringConvertible", "bottomView"]
+- !private ["PSs23CustomStringConvertible", "currentDevice"]
 - ["PSs23CustomStringConvertible", "didReceiveMemoryWarning"]
+- !private ["PSs23CustomStringConvertible", "frame"]
 - ["PSs23CustomStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "orientation"]
+- ["PSs23CustomStringConvertible", "topLeftView"]
+- ["PSs23CustomStringConvertible", "topRightView"]
+- ["PSs23CustomStringConvertible", "viewDidLayoutSubviews"]
 - ["PSs23CustomStringConvertible", "viewDidLoad"]
 - ["PSs23CustomStringConvertible", ""]
+- !private ["PSs9Equatable", "LandscapeLeft"]
+- !private ["PSs9Equatable", "LandscapeRight"]
+- !private ["PSs9Equatable", "RawValue"]
+- !private ["PSs9Equatable", "UIDevice"]
+- !private ["PSs9Equatable", "UIDeviceOrientation"]
+- !private ["PSs9Equatable", "_getBuiltinLogicValue"]
+- ["PSs9Equatable", "bottomView"]
+- !private ["PSs9Equatable", "currentDevice"]
 - ["PSs9Equatable", "didReceiveMemoryWarning"]
+- !private ["PSs9Equatable", "frame"]
+- !private ["PSs9Equatable", "height"]
 - ["PSs9Equatable", "init"]
+- !private ["PSs9Equatable", "orientation"]
+- !private ["PSs9Equatable", "origin"]
+- !private ["PSs9Equatable", "size"]
+- ["PSs9Equatable", "topLeftView"]
+- ["PSs9Equatable", "topRightView"]
+- ["PSs9Equatable", "viewDidLayoutSubviews"]
 - ["PSs9Equatable", "viewDidLoad"]
+- !private ["PSs9Equatable", "width"]
+- !private ["PSs9Equatable", "x"]
+- !private ["PSs9Equatable", "y"]
 - ["PSs9Equatable", ""]
+- !private ["PSs8Hashable", "LandscapeLeft"]
+- !private ["PSs8Hashable", "LandscapeRight"]
+- !private ["PSs8Hashable", "RawValue"]
+- !private ["PSs8Hashable", "UIDevice"]
+- !private ["PSs8Hashable", "UIDeviceOrientation"]
+- !private ["PSs8Hashable", "_getBuiltinLogicValue"]
+- ["PSs8Hashable", "bottomView"]
+- !private ["PSs8Hashable", "currentDevice"]
 - ["PSs8Hashable", "didReceiveMemoryWarning"]
+- !private ["PSs8Hashable", "frame"]
 - ["PSs8Hashable", "init"]
+- !private ["PSs8Hashable", "orientation"]
+- ["PSs8Hashable", "topLeftView"]
+- ["PSs8Hashable", "topRightView"]
+- ["PSs8Hashable", "viewDidLayoutSubviews"]
 - ["PSs8Hashable", "viewDidLoad"]
 - ["PSs8Hashable", ""]
+- !private ["PSo8NSCoding", "UIDevice"]
+- !private ["PSo8NSCoding", "UIDeviceOrientation"]
+- ["PSo8NSCoding", "bottomView"]
 - ["PSo8NSCoding", "didReceiveMemoryWarning"]
+- !private ["PSo8NSCoding", "frame"]
 - ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "topLeftView"]
+- ["PSo8NSCoding", "topRightView"]
+- ["PSo8NSCoding", "viewDidLayoutSubviews"]
 - ["PSo8NSCoding", "viewDidLoad"]
 - ["PSo8NSCoding", ""]
+- !private ["PSo26NSExtensionRequestHandling", "UIDevice"]
+- !private ["PSo26NSExtensionRequestHandling", "UIDeviceOrientation"]
+- ["PSo26NSExtensionRequestHandling", "bottomView"]
 - ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
 - ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", "topLeftView"]
+- ["PSo26NSExtensionRequestHandling", "topRightView"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLayoutSubviews"]
 - ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
 - ["PSo26NSExtensionRequestHandling", ""]
+- !private ["CSo8NSObject", "UIDevice"]
+- !private ["CSo8NSObject", "UIDeviceOrientation"]
+- ["CSo8NSObject", "UIView"]
+- ["CSo8NSObject", "bottomView"]
+- !private ["CSo8NSObject", "currentDevice"]
 - ["CSo8NSObject", "didReceiveMemoryWarning"]
+- !private ["CSo8NSObject", "frame"]
 - ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "orientation"]
+- ["CSo8NSObject", "topLeftView"]
+- ["CSo8NSObject", "topRightView"]
+- ["CSo8NSObject", "viewDidLayoutSubviews"]
 - ["CSo8NSObject", "viewDidLoad"]
+- !private ["PSo16NSObjectProtocol", "UIDevice"]
+- !private ["PSo16NSObjectProtocol", "UIDeviceOrientation"]
+- ["PSo16NSObjectProtocol", "bottomView"]
+- !private ["PSo16NSObjectProtocol", "currentDevice"]
 - ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
+- !private ["PSo16NSObjectProtocol", "frame"]
 - ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "orientation"]
+- ["PSo16NSObjectProtocol", "topLeftView"]
+- ["PSo16NSObjectProtocol", "topRightView"]
+- ["PSo16NSObjectProtocol", "viewDidLayoutSubviews"]
 - ["PSo16NSObjectProtocol", "viewDidLoad"]
 - ["PSo16NSObjectProtocol", ""]
+- !private ["PSs16RawRepresentable", "LandscapeLeft"]
+- !private ["PSs16RawRepresentable", "LandscapeRight"]
+- !private ["PSs16RawRepresentable", "RawValue"]
+- !private ["PSo29UIAccessibilityIdentification", "frame"]
+- !private ["PSo12UIAppearance", "frame"]
+- !private ["PSo21UIAppearanceContainer", "UIDevice"]
+- !private ["PSo21UIAppearanceContainer", "UIDeviceOrientation"]
+- ["PSo21UIAppearanceContainer", "bottomView"]
 - ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
+- !private ["PSo21UIAppearanceContainer", "frame"]
 - ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "topLeftView"]
+- ["PSo21UIAppearanceContainer", "topRightView"]
+- ["PSo21UIAppearanceContainer", "viewDidLayoutSubviews"]
 - ["PSo21UIAppearanceContainer", "viewDidLoad"]
 - ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo18UIContentContainer", "UIDevice"]
+- !private ["PSo18UIContentContainer", "UIDeviceOrientation"]
+- ["PSo18UIContentContainer", "bottomView"]
 - ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
 - ["PSo18UIContentContainer", "init"]
+- ["PSo18UIContentContainer", "topLeftView"]
+- ["PSo18UIContentContainer", "topRightView"]
+- ["PSo18UIContentContainer", "viewDidLayoutSubviews"]
 - ["PSo18UIContentContainer", "viewDidLoad"]
 - ["PSo18UIContentContainer", ""]
+- !private ["PSo17UICoordinateSpace", "frame"]
+- !private ["CSo8UIDevice", "currentDevice"]
+- !private ["CSo8UIDevice", "orientation"]
+- !private ["OSC19UIDeviceOrientation", "LandscapeLeft"]
+- !private ["OSC19UIDeviceOrientation", "LandscapeRight"]
+- !private ["OSC19UIDeviceOrientation", "RawValue"]
+- !private ["OSC19UIDeviceOrientation", "deinit"]
+- !private ["PSo13UIDynamicItem", "frame"]
+- !private ["PSo18UIFocusEnvironment", "UIDevice"]
+- !private ["PSo18UIFocusEnvironment", "UIDeviceOrientation"]
+- ["PSo18UIFocusEnvironment", "bottomView"]
 - ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
+- !private ["PSo18UIFocusEnvironment", "frame"]
 - ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "topLeftView"]
+- ["PSo18UIFocusEnvironment", "topRightView"]
+- ["PSo18UIFocusEnvironment", "viewDidLayoutSubviews"]
 - ["PSo18UIFocusEnvironment", "viewDidLoad"]
 - ["PSo18UIFocusEnvironment", ""]
+- !private ["CSo11UIResponder", "UIDevice"]
+- !private ["CSo11UIResponder", "UIDeviceOrientation"]
+- ["CSo11UIResponder", "UIView"]
+- ["CSo11UIResponder", "bottomView"]
 - ["CSo11UIResponder", "didReceiveMemoryWarning"]
+- !private ["CSo11UIResponder", "frame"]
 - ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "topLeftView"]
+- ["CSo11UIResponder", "topRightView"]
+- ["CSo11UIResponder", "viewDidLayoutSubviews"]
 - ["CSo11UIResponder", "viewDidLoad"]
+- !private ["PSo16UIStateRestoring", "UIDevice"]
+- !private ["PSo16UIStateRestoring", "UIDeviceOrientation"]
+- ["PSo16UIStateRestoring", "bottomView"]
 - ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
 - ["PSo16UIStateRestoring", "init"]
+- ["PSo16UIStateRestoring", "topLeftView"]
+- ["PSo16UIStateRestoring", "topRightView"]
+- ["PSo16UIStateRestoring", "viewDidLayoutSubviews"]
 - ["PSo16UIStateRestoring", "viewDidLoad"]
 - ["PSo16UIStateRestoring", ""]
+- !private ["PSo18UITraitEnvironment", "UIDevice"]
+- !private ["PSo18UITraitEnvironment", "UIDeviceOrientation"]
+- ["PSo18UITraitEnvironment", "bottomView"]
 - ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
+- !private ["PSo18UITraitEnvironment", "frame"]
 - ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "topLeftView"]
+- ["PSo18UITraitEnvironment", "topRightView"]
+- ["PSo18UITraitEnvironment", "viewDidLayoutSubviews"]
 - ["PSo18UITraitEnvironment", "viewDidLoad"]
 - ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "frame"]
+- !private ["CSo16UIViewController", "UIDevice"]
+- !private ["CSo16UIViewController", "UIDeviceOrientation"]
+- ["CSo16UIViewController", "UIView"]
+- ["CSo16UIViewController", "bottomView"]
 - ["CSo16UIViewController", "didReceiveMemoryWarning"]
 - ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "topLeftView"]
+- ["CSo16UIViewController", "topRightView"]
+- ["CSo16UIViewController", "viewDidLayoutSubviews"]
 - ["CSo16UIViewController", "viewDidLoad"]
 - ["CSo16UIViewController", ""]
+- !private ["C13StrutsProblem14ViewController", "UIDevice"]
+- !private ["C13StrutsProblem14ViewController", "UIDeviceOrientation"]
+- ["C13StrutsProblem14ViewController", "UIView"]
+- ["C13StrutsProblem14ViewController", "bottomView"]
 - ["C13StrutsProblem14ViewController", "deinit"]
 - ["C13StrutsProblem14ViewController", "didReceiveMemoryWarning"]
 - ["C13StrutsProblem14ViewController", "init"]
+- ["C13StrutsProblem14ViewController", "topLeftView"]
+- ["C13StrutsProblem14ViewController", "topRightView"]
+- ["C13StrutsProblem14ViewController", "viewDidLayoutSubviews"]
 - ["C13StrutsProblem14ViewController", "viewDidLoad"]
+- !private ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["PSs12_Reflectable", "frame"]
+- !private ["PSs12_Reflectable", "height"]
+- !private ["PSs12_Reflectable", "origin"]
+- !private ["PSs12_Reflectable", "size"]
+- !private ["PSs12_Reflectable", "width"]
+- !private ["PSs12_Reflectable", "x"]
+- !private ["PSs12_Reflectable", "y"]
 depends-nominal:
 - "PSs9AnyObject"
+- !private "Sb"
+- !private "PSs25BooleanLiteralConvertible"
+- !private "PSs11BooleanType"
+- !private "V12CoreGraphics7CGFloat"
+- !private "VSC7CGPoint"
+- !private "VSC6CGRect"
+- !private "VSC6CGSize"
 - "PSs11CVarArgType"
 - "PSs23CustomStringConvertible"
 - "PSs9Equatable"
@@ -88,14 +285,25 @@ depends-nominal:
 - "PSo26NSExtensionRequestHandling"
 - "CSo8NSObject"
 - "PSo16NSObjectProtocol"
+- !private "PSs16RawRepresentable"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
 - "PSo21UIAppearanceContainer"
 - "PSo18UIContentContainer"
+- !private "PSo17UICoordinateSpace"
+- !private "CSo8UIDevice"
+- !private "OSC19UIDeviceOrientation"
+- !private "PSo13UIDynamicItem"
 - "PSo18UIFocusEnvironment"
 - "CSo11UIResponder"
 - "PSo16UIStateRestoring"
 - "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
 - "CSo16UIViewController"
 - "C13StrutsProblem14ViewController"
+- !private "PSs33_BuiltinBooleanLiteralConvertible"
+- !private "PSs21_ObjectiveCBridgeable"
+- !private "PSs12_Reflectable"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
@@ -106,4 +314,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
-interface-hash: "2273e0b6560749631899e82af2412a52"
+interface-hash: "01fe462e9f774c8f5645569a8c2835b5"

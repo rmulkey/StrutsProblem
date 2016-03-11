@@ -107,13 +107,18 @@ SWIFT_CLASS("_TtC13StrutsProblem11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UIView;
 @class NSBundle;
 @class NSCoder;
 
 SWIFT_CLASS("_TtC13StrutsProblem14ViewController")
 @interface ViewController : UIViewController
+@property (nonatomic, weak) IBOutlet UIView * __null_unspecified topLeftView;
+@property (nonatomic, weak) IBOutlet UIView * __null_unspecified topRightView;
+@property (nonatomic, weak) IBOutlet UIView * __null_unspecified bottomView;
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
+- (void)viewDidLayoutSubviews;
 - (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
