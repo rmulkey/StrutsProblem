@@ -1,0 +1,6 @@
+version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
+options: "748599e2167da21f9ed5e17cdbde0cce"
+build_time: [510978151, 797429000]
+inputs:
+  "/Users/rodrigo.s.mulkey/Desktop/Dev/StrutsProblem/StrutsProblem/StrutsProblem/ViewController.swift": [510978148, 0]
+  "/Users/rodrigo.s.mulkey/Desktop/Dev/StrutsProblem/StrutsProblem/StrutsProblem/AppDelegate.swift": [510978148, 0]
